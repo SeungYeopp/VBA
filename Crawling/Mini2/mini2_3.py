@@ -15,7 +15,7 @@ driver = webdriver.Chrome('C:/chromedirver/chromedriver.exe')
 driver.get(url)
 time.sleep(1)
 
-# 'q'라는 이름을 가진 입력 요소가 로드 될 때까지 최대 10 초간 기다립니다.
+# 'q'라는 이름을 가진 입력 요소가 로드 될 때까지 최대 10 초간 기다림
 search_box = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.NAME, 'q'))
 )
