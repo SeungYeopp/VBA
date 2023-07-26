@@ -4,7 +4,7 @@ def solution(brown, yellow):
     # brown = 2*(height + width) + 4
     # height + width = (brown - 4) // 2
 
-    # yellow 의 가로 세로 길이를 width, height로 설정 후 width + height 값을 total에 저장
+    # yellow의 가로 세로 길이를 width, height로 설정 후 width + height 값을 total에 저장
     total = (brown - 4) // 2
     width = 0
 
