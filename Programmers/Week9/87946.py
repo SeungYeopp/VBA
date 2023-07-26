@@ -17,7 +17,7 @@ def solution(k, dungeons):
                 cnt += 1
         ans = max(ans, cnt)
 
-    # 탐험 가능한 최대 던전 수 바노한
+    # 탐험 가능한 최대 던전 수 반환
     return ans
 
 
