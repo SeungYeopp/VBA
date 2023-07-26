@@ -27,3 +27,7 @@ def solution(numbers):
                 ans.append(int(n))
     # 중복을 제거한 소수의 개수를 반환
     return len(set(ans))
+
+
+print(solution("17"))
+print(solution("011"))
